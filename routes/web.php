@@ -13,3 +13,4 @@
 
 Route::get('/', 'DashboardController@index');
 Route::resource('sales','SaleController');
+Route::resource('tables','TableController');
